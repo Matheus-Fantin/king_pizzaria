@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    padding-top: 16px 0;
+    color: #fff;
+}
+
+.pizza {
+    height: calc(100vh -150px);
+    background:url(./imagens/pizza3.jpg);
+}
+
+header >.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    height: 150px;
+}
+
+h1{
+    font-size: 90px;
+    width: 67px;
+}
+
+h2 {
+    font-size: 32PX;
+    width: 700px;
+}
+
+body {
+    background:url(./imagens/tijolo\ fundo.jpg);
+}
+
+nav {
+    background-color: rgb(46, 45, 45);
+    padding: 9px 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display:block;
+    margin-bottom: 4px;
+}
